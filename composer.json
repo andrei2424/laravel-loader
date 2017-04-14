@@ -1,0 +1,21 @@
+{
+    "name": "webdev/laravel-loader",
+    "description": "Laravel loader",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Andrei Kulbeda",
+            "email": "andreikulbeda@yandex.by"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebDev\\Loader\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
